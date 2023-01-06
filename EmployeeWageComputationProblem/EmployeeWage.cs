@@ -2,17 +2,31 @@
 
 namespace EmployeeWageComputationProblem
 {
-    public class EmployeWage
+    public class EmpWageBuilderObject
     {
 
-        public const int IS_PART_TIME = 3;
+        public const int IS_PART_TIME = 1;
         public const int IS_FULL_TIME = 2;
-        public static int computrEmpWage(string company, int empRatePerHour, int numofworkingday, int maxiHoursPerMonth)
+
+        private string company;
+        private int empRatePerHour;
+        private int numOfWorkingDays;
+        private int maxHoursPerMonth;
+        private int totalEmpWage;
+
+        public  EmpWageBuilderObject(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth)
         {
-            int empHrs = 0, totalEmpHrs = 0, totalWorkingDAys = 0;
-            while (totalEmpHrs <= maxiHoursPerMonth && totalWorkingDAys < numofworkingday)
+            this.company = company;
+            this.empRatePerHour = empRatePerHour;
+            this.numOfWorkingDays = numOfWorkingDays;
+            this.maxHoursPerMonth = maxHoursPerMonth;
+        }
+        public void computeEmpWage()
+        {
+            int empHrs = 0, totalEmpHrs = 0, totalWorkingDays = 0;
+            while (totalEmpHrs <= this.maxHoursPerMonth && totalWorkingDays < this.numOfWorkingDays)
             {
-                totalWorkingDAys++;
+                totalWorkingDays++;
                 Random random = new Random();
                 int empCheck = random.Next(0, 3);
                 switch (empCheck)
@@ -28,13 +42,15 @@ namespace EmployeeWageComputationProblem
                         break;
                 }
                 totalEmpHrs += empHrs;
-                Console.WriteLine("Day#:" + totalWorkingDAys + "Emp Hrs :" + empHrs);
+                Console.WriteLine("Day#:" + totalWorkingDays + "Emp Hrs : " + empHrs);
             }
-            int totalEmpWage = totalEmpHrs * empRatePerHour;
-            Console.WriteLine("Total Emp Wage for company : " + company + "is: " + totalEmpHrs);
-            return totalEmpHrs;
+            totalEmpWage = totalEmpHrs * this.empRatePerHour;
+            Console.WriteLine("Total Emp Wage For company : " + company + "is: " + totalEmpWage);
         }
-
+        public string toString()
+        {
+            return "Total Emp Wage for company : " + this.company + "is: " + this.totalEmpWage;
+        }
     }
 }
 
