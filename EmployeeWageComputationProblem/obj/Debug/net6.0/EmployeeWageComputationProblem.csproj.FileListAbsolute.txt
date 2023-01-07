@@ -1,0 +1,15 @@
+F:\Day10\EmployeeWageComputationProblem\bin\Debug\net6.0\EmployeeWageComputationProblem.exe
+F:\Day10\EmployeeWageComputationProblem\bin\Debug\net6.0\EmployeeWageComputationProblem.deps.json
+F:\Day10\EmployeeWageComputationProblem\bin\Debug\net6.0\EmployeeWageComputationProblem.runtimeconfig.json
+F:\Day10\EmployeeWageComputationProblem\bin\Debug\net6.0\EmployeeWageComputationProblem.dll
+F:\Day10\EmployeeWageComputationProblem\bin\Debug\net6.0\EmployeeWageComputationProblem.pdb
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\EmployeeWageComputationProblem.csproj.AssemblyReference.cache
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\EmployeeWageComputationProblem.GeneratedMSBuildEditorConfig.editorconfig
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\EmployeeWageComputationProblem.AssemblyInfoInputs.cache
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\EmployeeWageComputationProblem.AssemblyInfo.cs
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\EmployeeWageComputationProblem.csproj.CoreCompileInputs.cache
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\EmployeeWageComputationProblem.dll
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\refint\EmployeeWageComputationProblem.dll
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\EmployeeWageComputationProblem.pdb
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\EmployeeWageComputationProblem.genruntimeconfig.cache
+F:\Day10\EmployeeWageComputationProblem\obj\Debug\net6.0\ref\EmployeeWageComputationProblem.dll
